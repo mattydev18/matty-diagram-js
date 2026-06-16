@@ -142,6 +142,11 @@
   stroke: var(--element-selected-outline-stroke-color);
 }
 
+.djs-connection.selected .djs-visual defs marker path {
+    stroke: var(--element-selected-outline-stroke-color) !important;
+    fill: var(--element-selected-outline-stroke-color) !important;
+}
+
 .djs-connection.selected .djs-outline {
   display: none;
 }
